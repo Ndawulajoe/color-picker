@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="app.css">
+<title>Multiple Ev</title>
+    </head>
+    <body>
+        
+        
+          
+<div id="first"></div>
+
+        <h2>color Picker</h2>
+        <section id="boxes">
+        </section>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
+
+<!--const under =function(){
+    const input = document.querySelector(input);
+    input.style.color=this.style.backgroundColor
+}
+const changeColor =function(){
+    const h2 =document.querySelector('h2');
+    h2.style.color=this.style.backgroundColor;
+    console.log(this.style.backgroundColor)
+}
+
+const boxes =document.querySelector('#boxes')
+for(let color of colors){
+    const box = document.createElement('div');
+    box.style.backgroundColor=color
+    box.classList.add('box')
+    boxes.appendChild(box)
+    box.addEventListener('click',changeColor,under)
+    box.addEventListener('click',under)
+}
